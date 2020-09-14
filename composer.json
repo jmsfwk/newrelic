@@ -1,0 +1,26 @@
+{
+    "name": "jmsfwk/newrelic",
+    "description": "Simplified API for New Relic",
+    "keywords": ["New Relic", "APM"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "James Fenwick",
+            "email": "j.fenwick@me.com"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "jmsfwk\\NewRelic\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\NewRelic\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3"
+    }
+}
